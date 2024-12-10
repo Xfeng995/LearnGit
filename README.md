@@ -8,7 +8,7 @@ git init
 ## 1.2 克隆远程仓库
 将远程仓库克隆到本地。
 
-git clone <repository-url>
+git clone "repository-url"
 ## 1.3 查看状态
 查看工作目录中文件的状态（修改、未跟踪、暂存等）。
 
@@ -16,7 +16,7 @@ git status
 ## 1.4 添加文件到暂存区
 将指定文件添加到暂存区。
 
-git add <file>
+git add "filename"
 
 将当前目录下的所有文件添加到暂存区。
 git add .
