@@ -89,3 +89,8 @@ git pull "remote-name" "branch-name"
 获取远程仓库的最新信息，但不会自动合并。
 
 git fetch "remote-name"
+# 撤销操作
+## 4.1 撤销工作区更改
+撤销对某个文件的修改，将其恢复到上次提交的状态。
+
+git checkout -- "file"
