@@ -51,4 +51,20 @@ git branch "branch-name"
 
 git checkout "branch-name"
 
-dev2dev2dev2dev2dev2
+## 2.3 创建并切换分支
+创建一个新分支并切换到该分支。
+
+git checkout -b "branch-name"
+
+## 2.4 合并分支
+将指定分支合并到当前分支。
+
+git merge "branch-name"
+## 2.5 删除分支
+删除本地分支（如果该分支未完全合并到当前分支，会提示错误）。
+
+git branch -d "branch-name"
+
+强制删除分支。
+
+git branch -D "branch-name"
