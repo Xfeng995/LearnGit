@@ -40,6 +40,7 @@ git diff
 比较两个分支之间的差异。
 
 git diff "branch1" "branch2"
+
 # 2 分支管理
 ## 2.1 创建分支
 创建一个新的分支
@@ -49,3 +50,4 @@ git branch "branch-name"
 切换到指定的分支
 
 git checkout "branch-name"
+
