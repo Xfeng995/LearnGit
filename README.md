@@ -88,4 +88,4 @@ git pull "remote-name" "branch-name"
 ## 3.5 获取远程分支
 获取远程仓库的最新信息，但不会自动合并。
 
-git fetch <remote-name>
+git fetch "remote-name"
