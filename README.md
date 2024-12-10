@@ -11,22 +11,33 @@ git init
 git clone <repository-url>
 ## 1.3 查看状态
 查看工作目录中文件的状态（修改、未跟踪、暂存等）。
+
 git status
 ## 1.4 添加文件到暂存区
 将指定文件添加到暂存区。
+
 git add <file>
+
 将当前目录下的所有文件添加到暂存区。
 git add .
 ## 1.5 提交更改
 将暂存区的更改提交到本地仓库。
+
 git commit -m "描述提交的更改"
 ## 1.6 查看提交记录
 显示提交历史
+
 git log
+
 以简洁形式显示提交历史。
+
 git log --oneline
 ## 1.7 查看差异
 查看工作区与暂存区之间的差异。
+
 git diff
+
 比较两个分支之间的差异。
+
 git diff <branch1> <branch2>
+# 2 分支管理
