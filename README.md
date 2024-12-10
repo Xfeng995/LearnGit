@@ -68,3 +68,24 @@ git branch -d "branch-name"
 强制删除分支。
 
 git branch -D "branch-name"
+# 3 远程仓库操作
+## 3.1 查看远程仓库
+显示远程仓库的地址。
+
+git remote -v
+## 3.2 添加远程仓库
+添加一个新的远程仓库。
+
+git remote add "remote-name" "repository-url"
+## 3.3 推送到远程仓库
+将本地分支推送到远程仓库
+
+git push "remote-name" "branch-name"
+## 3.4 拉取最新更改
+拉取远程分支的最新更改并合并到当前分支。
+
+git pull "remote-name" "branch-name"
+## 3.5 获取远程分支
+获取远程仓库的最新信息，但不会自动合并。
+
+git fetch <remote-name>
