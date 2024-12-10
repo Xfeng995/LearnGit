@@ -45,3 +45,7 @@ git diff <branch1> <branch2>
 创建一个新的分支
 
 git branch <branch-name>
+## 2.2 切换分支
+切换到指定的分支
+
+git checkout <branch-name>
