@@ -94,3 +94,15 @@ git fetch "remote-name"
 撤销对某个文件的修改，将其恢复到上次提交的状态。
 
 git checkout -- "file"
+## 4.2 撤销暂存区更改
+将暂存区的文件撤回到工作区。
+
+git reset HEAD "file"
+## 4.3 撤销提交
+撤销到指定提交，但保留更改在暂存区。
+
+git reset --soft "commit-hash"
+
+彻底撤销到指定提交，并删除所有更改。
+
+git reset --hard "commit-hash"
