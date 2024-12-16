@@ -135,3 +135,47 @@ git push "remote-name" --delete "tag-name"
 
 # 6使用技巧
 ## 6.1 忽略文件
+在项目根目录创建 .gitignore 文件，列出需要忽略的文件或文件夹：
+
+忽略所有 .log 文件
+
+*.log
+
+忽略 tmp 文件夹及其内容
+
+/tmp
+## 6.2 配置别名
+为常用命令配置别名：使用 git st 代替 git status。
+
+git config --global alias.st status
+
+git config --global alias.co checkout
+
+git config --global alias.br branch
+## 6.3 查看配置
+显示当前 Git 配置。
+
+git config --list
+# 7. 常见问题解决
+## 问题 1：合并冲突
+合并时可能出现冲突，需要手动解决：
+
+打开冲突文件，按照标记（<<<<<<<、=======、>>>>>>>）解决冲突。添加修改后的文件到暂存区：
+
+git add "file"
+
+提交合并：
+
+git commit
+## 问题 2：恢复误删的分支
+如果不小心删除了分支，可以用以下方法恢复：
+
+git reflog
+
+git checkout -b "branch-name" "commit-hash"
+## 问题 3：回滚远程提交
+如果误推了错误的提交，可以使用：
+
+git revert "commit-hash"
+
+git push
