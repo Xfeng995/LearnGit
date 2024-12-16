@@ -109,4 +109,29 @@ git reset --hard "commit-hash"
 
 # 5 标签管理
 ## 5.1 创建标签
+为当前提交创建一个标签
+
 git tag “tag-name”
+
+创建带说明的标签
+
+git tag -a "tag-name" -m "标签明说"
+
+## 5.2 查看标签
+列出所有标签
+
+git tag
+## 5.3 推送标签
+将本地标签推送到远程仓库
+
+git push "remote-name" "tag-name"
+## 5.4 删除标签
+
+git tag -d "tag-name"
+
+删除远程标签
+
+git push "remote-name" --delete "tag-name"
+
+# 6使用技巧
+## 6.1 忽略文件
