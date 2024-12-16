@@ -107,6 +107,6 @@ git reset --soft "commit-hash"
 
 git reset --hard "commit-hash"
 
-git add
-git commit
-git push
+# 5 标签管理
+## 5.1 创建标签
+git tag “tag-name”
