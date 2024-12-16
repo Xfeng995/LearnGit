@@ -106,3 +106,7 @@ git reset --soft "commit-hash"
 彻底撤销到指定提交，并删除所有更改。
 
 git reset --hard "commit-hash"
+
+git add
+git commit
+git push
