@@ -179,5 +179,11 @@ git checkout -b "branch-name" "commit-hash"
 git revert "commit-hash"
 
 git push
+<<<<<<< HEAD
 # 总结
 这是本文的总结
+=======
+
+# 8 总结
+xx总结
+>>>>>>> ad07f9395c7b3e5b60068ed05879e1067f80e54d
