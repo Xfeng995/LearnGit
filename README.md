@@ -180,5 +180,10 @@ git revert "commit-hash"
 
 git push
 
-# 8 总结
+# 8 案例
+    案例1:从github仓库拉去文件到本机指定目录，修改后推送到github仓库
+    git clone https://github.com/Xfeng995/LearnGit.git .
+    
+
+# 9 总结
 xx总结
